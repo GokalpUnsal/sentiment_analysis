@@ -44,7 +44,7 @@ function AddCommentBlock(props) {
             <Card.Body>
                 <Card.Title>Add Comment</Card.Title>
                 <Form.Group as={Row} controlId="formName">
-                    <Form.Label column sm="1">
+                    <Form.Label column sm="2">
                         Name:
                     </Form.Label>
                     <Col sm="2">
@@ -52,10 +52,10 @@ function AddCommentBlock(props) {
                     </Col>
                 </Form.Group>
                 <Form.Group as={Row} controlId="formComment">
-                <Form.Label column sm="1">
+                <Form.Label column sm="2">
                         Comment:
                     </Form.Label>
-                    <Col sm="11">
+                    <Col sm="10">
                         <Form.Control type="text" placeholder="Comment" name="text" value={text} onChange={handleText}/>
                     </Col>
                 </Form.Group>

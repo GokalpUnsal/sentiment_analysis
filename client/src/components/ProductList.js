@@ -48,7 +48,7 @@ async function getProductList() {
 
 
     return (
-        <Container fluid>
+        <Container >
             <Table striped bordered hover>
                 <thead>
                     <tr>
